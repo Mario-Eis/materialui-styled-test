@@ -9,7 +9,6 @@
     "lib": ["es6", "dom"],
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noEmit": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "noErrorTruncation": true,
