@@ -13,7 +13,7 @@ const StyledPaper = styled(Paper)`
 const StyledList = styled(List)`
     background-color: blue;
     text-align: center;
-` as List;
+` as typeof List;
 
 export const Example: FunctionComponent = () => {
     return <div>
