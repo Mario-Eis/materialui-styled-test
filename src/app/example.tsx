@@ -2,8 +2,8 @@ import * as React from "react";
 import { FunctionComponent } from "react";
 import Paper from "@material-ui/core/Paper";
 import styled from "styled-components";
-import { List } from "@material-ui/core";
 import ListItemText from "@material-ui/core/ListItemText";
+import { List } from "@material-ui/core";
 
 const StyledPaper = styled(Paper)`
     background-color: green;
@@ -13,7 +13,7 @@ const StyledPaper = styled(Paper)`
 const StyledList = styled(List)`
     background-color: blue;
     text-align: center;
-`;
+` as List;
 
 export const Example: FunctionComponent = () => {
     return <div>
